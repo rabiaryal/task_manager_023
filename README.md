@@ -4,6 +4,13 @@ A new Flutter project.
 
 ## Getting Started
 
+
+This app will be the basic implemenmtation of the bloc state management, Here i will be having 4-5 pages , which includes,
+Home Screen
+Add Task Screen 
+Task Details Screen
+Setting Screen 
+
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:

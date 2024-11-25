@@ -12,17 +12,20 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
         title: const Text("Task Manager"),
+        centerTitle: true,
       ),
-      body: Column(
-        children: [
-          Container(
-            height: 400,
-            width: 400,
-          color: Colors.green,
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 15),
+        child: Column(
+          children: [
+            Container(
+              height: 300,
+              width: 400,
+              color: Colors.green,
+            )
+          ],
+        ),
       ),
     );
   }
